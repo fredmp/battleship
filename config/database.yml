@@ -1,0 +1,22 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
+
+development:
+  <<: *default
+  database: battleship_development
+  # Minimum log levels, in increasing order (defaults to warning):
+  #   debug5, debug4, debug3, debug2, debug1, log, notice, warning, error, fatal, and panic
+  #min_messages: notice
+
+test:
+  <<: *default
+  database: battleship_test
+
+production:
+  <<: *default
+  database: <%= ENV['BATTLESHIP_DATABASE_NAME'] %>
+  username: <%= ENV['BATTLESHIP_DATABASE_USERNAME'] %>
+  password: <%= ENV['BATTLESHIP_DATABASE_PASSWORD'] %>
