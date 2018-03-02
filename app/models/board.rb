@@ -25,6 +25,16 @@ class Board
     ship.navigate_to(self, positions)
   end
 
+  def self.from_json(json)
+    board = Board.new(x: json[:x], y: json[:y])
+    board.elements = json[:elements].map do |line|
+      line.map do |row|
+        BoardElement.from_json(row)
+      end
+    end
+    board
+  end
+
   def self.build(x, y)
     board = Board.new(x: x, y: y)
     board.elements = x.times.map do |position_x|

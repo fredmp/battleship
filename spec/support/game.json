@@ -1,0 +1,330 @@
+{
+  "board_user_1": {
+    "x": 10,
+    "y": 10,
+    "elements": [
+      [
+        {"x": 0, "y": 0, "ship_part": null },
+        {"x": 0, "y": 1, "ship_part": null },
+        {"x": 0, "y": 2, "ship_part": null },
+        {"x": 0, "y": 3, "ship_part": null },
+        {"x": 0, "y": 4, "ship_part": null },
+        {"x": 0, "y": 5, "ship_part": null },
+        {"x": 0, "y": 6, "ship_part": null },
+        {"x": 0, "y": 7, "ship_part": null },
+        {"x": 0, "y": 8, "ship_part": null },
+        {"x": 0, "y": 9, "ship_part": null }
+      ], [
+        {"x": 1, "y": 0, "ship_part": null },
+        {"x": 1, "y": 1, "ship_part": null },
+        {"x": 1, "y": 2, "ship_part": null },
+        {"x": 1, "y": 3, "ship_part": null },
+        {"x": 1, "y": 4, "ship_part": {"x": 1, "y": 4, "ship_id": 40}},
+        {"x": 1, "y": 5, "ship_part": null },
+        {"x": 1, "y": 6, "ship_part": null },
+        {"x": 1, "y": 7, "ship_part": null },
+        {"x": 1, "y": 8, "ship_part": null },
+        {"x": 1, "y": 9, "ship_part": null }
+      ], [
+        {"x": 2, "y": 0, "ship_part": null },
+        {"x": 2, "y": 1, "ship_part": null },
+        {"x": 2, "y": 2, "ship_part": null },
+        {"x": 2, "y": 3, "ship_part": {"x": 2, "y": 3, "ship_id": 10}},
+        {"x": 2, "y": 4, "ship_part": null },
+        {"x": 2, "y": 5, "ship_part": null },
+        {"x": 2, "y": 6, "ship_part": {"x": 2, "y": 6, "ship_id": 21}},
+        {"x": 2, "y": 7, "ship_part": {"x": 2, "y": 7, "ship_id": 21}},
+        {"x": 2, "y": 8, "ship_part": {"x": 2, "y": 8, "ship_id": 21}},
+        {"x": 2, "y": 9, "ship_part": null }
+      ], [
+        {"x": 3, "y": 0, "ship_part": null },
+        {"x": 3, "y": 1, "ship_part": null },
+        {"x": 3, "y": 2, "ship_part": null },
+        {"x": 3, "y": 3, "ship_part": {"x": 3, "y": 3, "ship_id": 10}},
+        {"x": 3, "y": 4, "ship_part": null },
+        {"x": 3, "y": 5, "ship_part": null },
+        {"x": 3, "y": 6, "ship_part": null },
+        {"x": 3, "y": 7, "ship_part": null },
+        {"x": 3, "y": 8, "ship_part": null },
+        {"x": 3, "y": 9, "ship_part": null }
+      ], [
+        {"x": 4, "y": 0, "ship_part": {"x": 4, "y": 0, "ship_id": 31}},
+        {"x": 4, "y": 1, "ship_part": {"x": 4, "y": 1, "ship_id": 31}},
+        {"x": 4, "y": 2, "ship_part": null },
+        {"x": 4, "y": 3, "ship_part": {"x": 4, "y": 3, "ship_id": 10}},
+        {"x": 4, "y": 4, "ship_part": null },
+        {"x": 4, "y": 5, "ship_part": null },
+        {"x": 4, "y": 6, "ship_part": null },
+        {"x": 4, "y": 7, "ship_part": null },
+        {"x": 4, "y": 8, "ship_part": null },
+        {"x": 4, "y": 9, "ship_part": null }
+      ], [
+        {"x": 5, "y": 0, "ship_part": null },
+        {"x": 5, "y": 1, "ship_part": null },
+        {"x": 5, "y": 2, "ship_part": null },
+        {"x": 5, "y": 3, "ship_part": {"x": 5, "y": 3, "ship_id": 10}},
+        {"x": 5, "y": 4, "ship_part": {"x": 5, "y": 4, "ship_id": 30}},
+        {"x": 5, "y": 5, "ship_part": {"x": 5, "y": 5, "ship_id": 30}},
+        {"x": 5, "y": 6, "ship_part": null },
+        {"x": 5, "y": 7, "ship_part": null },
+        {"x": 5, "y": 8, "ship_part": null },
+        {"x": 5, "y": 9, "ship_part": null }
+      ], [
+        {"x": 6, "y": 0, "ship_part": null },
+        {"x": 6, "y": 1, "ship_part": null },
+        {"x": 6, "y": 2, "ship_part": null },
+        {"x": 6, "y": 3, "ship_part": null },
+        {"x": 6, "y": 4, "ship_part": null },
+        {"x": 6, "y": 5, "ship_part": null },
+        {"x": 6, "y": 6, "ship_part": null },
+        {"x": 6, "y": 7, "ship_part": null },
+        {"x": 6, "y": 8, "ship_part": null },
+        {"x": 6, "y": 9, "ship_part": null }
+      ], [
+        {"x": 7, "y": 0, "ship_part": {"x": 7, "y": 0, "ship_id": 20}},
+        {"x": 7, "y": 1, "ship_part": null },
+        {"x": 7, "y": 2, "ship_part": null },
+        {"x": 7, "y": 3, "ship_part": {"x": 7, "y": 3, "ship_id": 32}},
+        {"x": 7, "y": 4, "ship_part": {"x": 7, "y": 4, "ship_id": 32}},
+        {"x": 7, "y": 5, "ship_part": null },
+        {"x": 7, "y": 6, "ship_part": null },
+        {"x": 7, "y": 7, "ship_part": null },
+        {"x": 7, "y": 8, "ship_part": {"x": 7, "y": 8, "ship_id": 41}},
+        {"x": 7, "y": 9, "ship_part": null }
+      ], [
+        {"x": 8, "y": 0, "ship_part": {"x": 8, "y": 0, "ship_id": 20}},
+        {"x": 8, "y": 1, "ship_part": null },
+        {"x": 8, "y": 2, "ship_part": null },
+        {"x": 8, "y": 3, "ship_part": null },
+        {"x": 8, "y": 4, "ship_part": null },
+        {"x": 8, "y": 5, "ship_part": null },
+        {"x": 8, "y": 6, "ship_part": null },
+        {"x": 8, "y": 7, "ship_part": {"x": 8, "y": 7, "ship_id": 43}},
+        {"x": 8, "y": 8, "ship_part": null },
+        {"x": 8, "y": 9, "ship_part": null }
+      ], [
+      {"x": 9, "y": 0, "ship_part": {"x": 9, "y": 0, "ship_id": 20}},
+        {"x": 9, "y": 1, "ship_part": null },
+        {"x": 9, "y": 2, "ship_part": null },
+        {"x": 9, "y": 3, "ship_part": null },
+        {"x": 9, "y": 4, "ship_part": null },
+        {"x": 9, "y": 5, "ship_part": null },
+        {"x": 9, "y": 6, "ship_part": null },
+        {"x": 9, "y": 7, "ship_part": {"x": 9, "y": 7, "ship_id": 42}},
+        {"x": 9, "y": 8, "ship_part": null },
+        {"x": 9, "y": 9, "ship_part": null }
+      ]
+    ]
+  },
+  "board_user_2": {
+    "x": 10,
+    "y": 10,
+    "elements": [
+      [
+        {"x": 0, "y": 0, "ship_part": null },
+        {"x": 0, "y": 1, "ship_part": null },
+        {"x": 0, "y": 2, "ship_part": null },
+        {"x": 0, "y": 3, "ship_part": null },
+        {"x": 0, "y": 4, "ship_part": null },
+        {"x": 0, "y": 5, "ship_part": null },
+        {"x": 0, "y": 6, "ship_part": null },
+        {"x": 0, "y": 7, "ship_part": null },
+        {"x": 0, "y": 8, "ship_part": {"x": 0, "y": 8, "ship_id": 43}},
+        {"x": 0, "y": 9, "ship_part": null }
+      ], [
+        {"x": 1, "y": 0, "ship_part": null },
+        {"x": 1, "y": 1, "ship_part": null },
+        {"x": 1, "y": 2, "ship_part": null },
+        {"x": 1, "y": 3, "ship_part": null },
+        {"x": 1, "y": 4, "ship_part": null },
+        {"x": 1, "y": 5, "ship_part": null },
+        {"x": 1, "y": 6, "ship_part": null },
+        {"x": 1, "y": 7, "ship_part": null },
+        {"x": 1, "y": 8, "ship_part": null },
+        {"x": 1, "y": 9, "ship_part": null }
+      ], [
+        {"x": 2, "y": 0, "ship_part": null },
+        {"x": 2, "y": 1, "ship_part": null },
+        {"x": 2, "y": 2, "ship_part": null },
+        {"x": 2, "y": 3, "ship_part": null },
+        {"x": 2, "y": 4, "ship_part": {"x": 2, "y": 4, "ship_id": 41}},
+        {"x": 2, "y": 5, "ship_part": null },
+        {"x": 2, "y": 6, "ship_part": null },
+        {"x": 2, "y": 7, "ship_part": null },
+        {"x": 2, "y": 8, "ship_part": null },
+        {"x": 2, "y": 9, "ship_part": null }
+      ], [
+        {"x": 3, "y": 0, "ship_part": null },
+        {"x": 3, "y": 1, "ship_part": null },
+        {"x": 3, "y": 2, "ship_part": null },
+        {"x": 3, "y": 3, "ship_part": null },
+        {"x": 3, "y": 4, "ship_part": null },
+        {"x": 3, "y": 5, "ship_part": null },
+        {"x": 3, "y": 6, "ship_part": null },
+        {"x": 3, "y": 7, "ship_part": null },
+        {"x": 3, "y": 8, "ship_part": null },
+        {"x": 3, "y": 9, "ship_part": null }
+      ], [
+        {"x": 4, "y": 0, "ship_part": null },
+        {"x": 4, "y": 1, "ship_part": null },
+        {"x": 4, "y": 2, "ship_part": null },
+        {"x": 4, "y": 3, "ship_part": {"x": 4, "y": 3, "ship_id": 21}},
+        {"x": 4, "y": 4, "ship_part": null },
+        {"x": 4, "y": 5, "ship_part": {"x": 4, "y": 5, "ship_id": 10}},
+        {"x": 4, "y": 6, "ship_part": {"x": 4, "y": 6, "ship_id": 10}},
+        {"x": 4, "y": 7, "ship_part": {"x": 4, "y": 7, "ship_id": 10}},
+        {"x": 4, "y": 8, "ship_part": {"x": 4, "y": 8, "ship_id": 10}},
+        {"x": 4, "y": 9, "ship_part": null }
+      ], [
+        {"x": 5, "y": 0, "ship_part": null },
+        {"x": 5, "y": 1, "ship_part": null },
+        {"x": 5, "y": 2, "ship_part": null },
+        {"x": 5, "y": 3, "ship_part": {"x": 5, "y": 3, "ship_id": 21}},
+        {"x": 5, "y": 4, "ship_part": null },
+        {"x": 5, "y": 5, "ship_part": {"x": 5, "y": 5, "ship_id": 31}},
+        {"x": 5, "y": 6, "ship_part": null },
+        {"x": 5, "y": 7, "ship_part": {"x": 5, "y": 7, "ship_id": 42}},
+        {"x": 5, "y": 8, "ship_part": null },
+        {"x": 5, "y": 9, "ship_part": null }
+      ], [
+        {"x": 6, "y": 0, "ship_part": null },
+        {"x": 6, "y": 1, "ship_part": null },
+        {"x": 6, "y": 2, "ship_part": null },
+        {"x": 6, "y": 3, "ship_part": {"x": 6, "y": 3, "ship_id": 21}},
+        {"x": 6, "y": 4, "ship_part": null },
+        {"x": 6, "y": 5, "ship_part": {"x": 6, "y": 5, "ship_id": 31}},
+        {"x": 6, "y": 6, "ship_part": null },
+        {"x": 6, "y": 7, "ship_part": null },
+        {"x": 6, "y": 8, "ship_part": null },
+        {"x": 6, "y": 9, "ship_part": null }
+      ], [
+        {"x": 7, "y": 0, "ship_part": null },
+        {"x": 7, "y": 1, "ship_part": null },
+        {"x": 7, "y": 2, "ship_part": null },
+        {"x": 7, "y": 3, "ship_part": {"x": 7, "y": 3, "ship_id": 32}},
+        {"x": 7, "y": 4, "ship_part": {"x": 7, "y": 4, "ship_id": 32}},
+        {"x": 7, "y": 5, "ship_part": null },
+        {"x": 7, "y": 6, "ship_part": {"x": 7, "y": 6, "ship_id": 20}},
+        {"x": 7, "y": 7, "ship_part": null },
+        {"x": 7, "y": 8, "ship_part": null },
+        {"x": 7, "y": 9, "ship_part": null }
+      ], [
+        {"x": 8, "y": 0, "ship_part": null },
+        {"x": 8, "y": 1, "ship_part": null },
+        {"x": 8, "y": 2, "ship_part": null },
+        {"x": 8, "y": 3, "ship_part": null },
+        {"x": 8, "y": 4, "ship_part": null },
+        {"x": 8, "y": 5, "ship_part": null },
+        {"x": 8, "y": 6, "ship_part": {"x": 8, "y": 6, "ship_id": 20}},
+        {"x": 8, "y": 7, "ship_part": null },
+        {"x": 8, "y": 8, "ship_part": null },
+        {"x": 8, "y": 9, "ship_part": null }
+      ], [
+        {"x": 9, "y": 0, "ship_part": null },
+        {"x": 9, "y": 1, "ship_part": {"x": 9, "y": 1, "ship_id": 40}},
+        {"x": 9, "y": 2, "ship_part": null },
+        {"x": 9, "y": 3, "ship_part": null },
+        {"x": 9, "y": 4, "ship_part": null },
+        {"x": 9, "y": 5, "ship_part": null },
+        {"x": 9, "y": 6, "ship_part": {"x": 9, "y": 6, "ship_id": 20}},
+        {"x": 9, "y": 7, "ship_part": null },
+        {"x": 9, "y": 8, "ship_part": {"x": 9, "y": 8, "ship_id": 30}},
+        {"x": 9, "y": 9, "ship_part": {"x": 9, "y": 9, "ship_id": 30}}
+      ]
+    ]
+  },
+  "ships_user_1": [
+    {
+      "id": 10, "name": "Battleship", "parts": [
+        {"x": 2, "y": 3, "ship_id": 10},
+        {"x": 3, "y": 3, "ship_id": 10},
+        {"x": 4, "y": 3, "ship_id": 10},
+        {"x": 5, "y": 3, "ship_id": 10}
+      ]
+    },
+    {
+      "id": 20, "name": "Cruiser", "parts": [
+        {"x": 7, "y": 0, "ship_id": 20}, {"x": 8, "y": 0, "ship_id": 20}, {"x": 9, "y": 0, "ship_id": 20}
+      ]
+    }, {
+      "id": 21, "name": "Cruiser", "parts": [
+        {"x": 2, "y": 6, "ship_id": 21}, {"x": 2, "y": 7, "ship_id": 21}, {"x": 2, "y": 8, "ship_id": 21}
+      ]
+    }, {
+      "id": 30, "name": "Destroyer", "parts": [
+        {"x": 5, "y": 4, "ship_id": 30}, {"x": 5, "y": 5, "ship_id": 30}
+      ]
+    }, {
+      "id": 31, "name": "Destroyer", "parts": [
+        {"x": 4, "y": 0, "ship_id": 31}, {"x": 4, "y": 1, "ship_id": 31}
+      ]
+    }, {
+      "id": 32, "name": "Destroyer", "parts": [
+        {"x": 7, "y": 3, "ship_id": 32}, {"x": 7, "y": 4, "ship_id": 32}
+      ]
+    }, {
+      "id": 40, "name": "Submarine", "parts": [
+        {"x": 1, "y": 4, "ship_id": 40}
+      ]
+    }, {
+      "id": 41, "name": "Submarine", "parts": [
+        {"x": 7, "y": 8, "ship_id": 41}
+      ]
+    }, {
+      "id": 42, "name": "Submarine", "parts": [
+        {"x": 9, "y": 7, "ship_id": 42}
+      ]
+    }, {
+      "id": 43, "name": "Submarine", "parts": [
+        {"x": 8, "y": 7, "ship_id": 43}
+      ]
+    }
+  ],
+  "ships_user_2": [
+    {
+      "id": 10, "name": "Battleship", "parts": [
+        {"x": 4, "y": 5, "ship_id": 10}, {"x": 4, "y": 6, "ship_id": 10}, {"x": 4, "y": 7, "ship_id": 10}, {"x": 4, "y": 8, "ship_id": 10}
+      ]
+    }, {
+      "id": 20, "name": "Cruiser", "parts": [
+        {"x": 7, "y": 6, "ship_id": 20}, {"x": 8, "y": 6, "ship_id": 20}, {"x": 9, "y": 6, "ship_id": 20}
+      ]
+    }, {
+      "id": 21, "name": "Cruiser", "parts": [
+        {"x": 4, "y": 3, "ship_id": 21}, {"x": 5, "y": 3, "ship_id": 21}, {"x": 6, "y": 3, "ship_id": 21}
+      ]
+    }, {
+      "id": 30, "name": "Destroyer", "parts": [
+        {"x": 9, "y": 8, "ship_id": 30}, {"x": 9, "y": 9, "ship_id": 30}
+      ]
+    }, {
+      "id": 31, "name": "Destroyer", "parts": [
+        {"x": 5, "y": 5, "ship_id": 31}, {"x": 6, "y": 5, "ship_id": 31}
+      ]
+    }, {
+      "id": 32, "name": "Destroyer", "parts": [
+        {"x": 7, "y": 3, "ship_id": 32}, {"x": 7, "y": 4, "ship_id": 32}
+      ]
+    }, {
+      "id": 40, "name": "Submarine", "parts": [
+        {"x": 9, "y": 1, "ship_id": 40}
+      ]
+    }, {
+      "id": 41, "name": "Submarine", "parts": [
+        {"x": 2, "y": 4, "ship_id": 41}
+      ]
+    }, {
+      "id": 42, "name": "Submarine", "parts": [
+        {"x": 5, "y": 7, "ship_id": 42}
+      ]
+    }, {
+      "id": 43, "name": "Submarine", "parts": [
+        {"x": 0, "y": 8, "ship_id": 43}
+      ]
+    }
+  ],
+  "headers": {
+    "x": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
+    "y": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  }
+}

@@ -35,6 +35,14 @@ class Ship
     end.flatten
   end
 
+  def self.from_json(json)
+    Ship.new(
+      id: json[:id],
+      name: json[:name],
+      parts: json[:parts].map { |part| ShipPart.from_json(part) }
+    )
+  end
+
   def self.build_by_type(type, unit)
     Ship.new(id: "#{type.id}#{unit}".to_i(10), name: type.name, parts: type.size.times.map { ShipPart.new })
   end

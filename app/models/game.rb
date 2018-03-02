@@ -20,6 +20,16 @@ class Game
     game
   end
 
+  def self.from_json(json)
+    game = Game.new
+    game.headers = json[:headers]
+    game.board_user_1 = Board.from_json(json[:board_user_1])    
+    game.board_user_2 = Board.from_json(json[:board_user_2])
+    game.ships_user_1 = json[:ships_user_1].map { |s| Ship.from_json(s) }
+    game.ships_user_2 = json[:ships_user_2].map { |s| Ship.from_json(s) }
+    game
+  end
+
   def self.build_fleet(board, ships)
     Ship.build_fleet.each do |ship|
       board.add(ship)

@@ -23,4 +23,9 @@ class BoardElement
   def to_s
     ship_part ? ship_part.ship_id.to_s : '.'
   end
+
+  def self.from_json(json)
+    part = ShipPart.from_json(json[:ship_part]) if json[:ship_part]
+    BoardElement.new(x: json[:x], y: json[:y], ship_part: part)
+  end
 end
