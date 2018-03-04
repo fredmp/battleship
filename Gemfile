@@ -12,6 +12,8 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'fast_jsonapi'
 gem 'rack-cors'
 gem 'figaro'
+gem 'redis'
+gem 'redis-namespace'
 
 group :development, :test do
   gem 'rspec-rails'

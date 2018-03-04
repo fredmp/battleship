@@ -1,6 +1,6 @@
 class Game
 
-  attr_accessor :board_user_1, :board_user_2, :ships_user_1, :ships_user_2, :headers
+  attr_accessor :id, :user1, :user2, :board_user_1, :board_user_2, :ships_user_1, :ships_user_2, :headers
 
   def initialize(params = {})
     @board_user_1 = params[:board_user_1]
@@ -22,6 +22,9 @@ class Game
 
   def self.from_json(json)
     game = Game.new
+    game.id = json[:id]
+    game.user1 = json[:user1]
+    game.user2 = json[:user2]
     game.headers = json[:headers]
     game.board_user_1 = Board.from_json(json[:board_user_1])    
     game.board_user_2 = Board.from_json(json[:board_user_2])
